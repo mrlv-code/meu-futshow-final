@@ -1,6 +1,6 @@
 exports.handler = async function(event, context) {
     const NEWS_API_KEY = '2f9d3eda984a465aa80debdc2575e23b'; // Sua chave da NewsAPI
-    const GEMINI_API_KEY = 'SUA_CHAVE_GEMINI_AQUI'; // VOCÊ PRECISARÁ DE UMA CHAVE DA IA DO GOOGLE
+    const GEMINI_API_KEY = 'const GEMINI_API_KEY = 'AIzaSyA8YOsCM00V3K2PeSC6amCuoeksHZFXwFI';'; // VOCÊ PRECISARÁ DE UMA CHAVE DA IA DO GOOGLE
 
     const newsUrl = `https://newsapi.org/v2/everything?q="futebol brasileiro"&language=pt&sortBy=publishedAt&pageSize=6&apiKey=${NEWS_API_KEY}`;
 
